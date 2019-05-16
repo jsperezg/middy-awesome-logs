@@ -14,7 +14,7 @@ that still work with [middy](https://www.npmjs.com/package/middy).
 
 
 ## Install
-`$ npm install @jsperezg/middy-awesome-logs`
+`$ npm install middy-awesome-logs`
 
 ## Options
 *logger* property accept a function (default *console.log*).
