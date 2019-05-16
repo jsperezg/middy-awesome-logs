@@ -1,6 +1,6 @@
 {
   "name": "middy-awesome-logs",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Middy middleware that logs requests",
   "main": "index.js",
   "scripts": {

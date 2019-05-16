@@ -3,7 +3,7 @@
 [![npm (scoped)](https://img.shields.io/npm/v/middy-awesome-logs.svg)](https://github.com/jsperezg/middy-awesome-logs) [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/middy-awesome-logs.svg)](https://github.com/jsperezg/middy-awesome-logs)
 
 ## Description
-This package provides a middy Middleware that logs requests, errors and responses. It is based on 
+This package provides a middy Middleware that logs requests and responses. It is based on 
 [@middy/input-out-logger](https://www.npmjs.com/package/@middy/input-output-logger) middleware.
 
 ## Why

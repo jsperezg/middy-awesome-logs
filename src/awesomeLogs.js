@@ -24,15 +24,6 @@ const awesomeLogs = (config) => {
 
       return next();
     },
-    onError: (handler, next) => {
-      const { error } = handler;
-
-      if (typeof options.logger === 'function') {
-        options.logger({ error });
-      }
-
-      return next();
-    },
   });
 };
 
