@@ -1,6 +1,6 @@
-# @jsperezg/middy-awesome-logs
+# middy-awesome-logs
 
-[![npm (scoped)](https://img.shields.io/npm/v/@jsperezg/middy-awesome-logs.svg)](https://github.com/Ruberto/countrify) [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@jsperezg/middy-awesome-logs.svg)](https://github.com/Ruberto/countrify)
+[![npm (scoped)](https://img.shields.io/npm/v/middy-awesome-logs.svg)](https://github.com/jsperezg/middy-awesome-logs) [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/middy-awesome-logs.svg)](https://github.com/jsperezg/middy-awesome-logs)
 
 ## Description
 This package provides a middy Middleware that logs requests, errors and responses. It is based on 
@@ -22,7 +22,7 @@ that still work with [middy](https://www.npmjs.com/package/middy).
 ## Usage
 ```javascript
 const middy = require('middy');
-const awesomeLogs = require('@jsperezg/middy-awesome-logs');
+const awesomeLogs = require('middy-awesome-logs');
  
 const handler = middy((event, context, cb) => {
   const response = {
