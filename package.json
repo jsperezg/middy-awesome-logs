@@ -1,0 +1,41 @@
+{
+  "name": "middy-awesome-logs",
+  "version": "0.1.0",
+  "description": "Middy middleware that logs requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint 'src/**/*.js'"
+  },
+  "keywords": [
+    "AWS",
+    "AWS Lambda",
+    "Lambda",
+    "Middleware",
+    "Serverless",
+    "Middy",
+    "Logger"
+  ],
+  "author": "Juan Salvador Pérez García <jsperezg@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsperezg/middy-awesome-logs.git"
+  },
+  "peerDependencies": {
+    "middy": "^0.25.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.17.1"
+  },
+  "dependencies": {
+    "middy": "^0.25.1"
+  }
+}
